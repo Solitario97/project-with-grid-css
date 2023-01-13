@@ -1,3 +1,7 @@
+.body{
+    margin: 15px;
+}
+}
 .cards-grid{
     display: grid;
     gap: 20px;
