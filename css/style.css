@@ -4,11 +4,25 @@
     grid-template-columns: repeat(4, 250px);
     grid-template-rows: repeat(4, 180px);
     grid-template-areas: 
-        "xxxx xxxxx xxxx xxxx"
-        "xxxx xxxxx xxxx xxxx"
-        "xxxx xxxxx xxxx xxxx"
-        "xxxx xxxxx xxxx xxxx";
+        "sale1 sale1 product1 product2"
+        "sale2 sale2 product1 product2"
+        "product3 product4 sale3 sale3"
+        "product3 product4 sale4 sale4";
 }
+.sale-1{ grid-area: sale1;}
+.sale-2{ grid-area: sale2;}
+.sale-3{ grid-area: sale3;}
+.sale-4{ grid-area: sale4;}
+
+.product-1{ grid-area: product1;}
+.product-2{ grid-area: product2;}
+.product-3{ grid-area: product3;}
+.product-4{ grid-area: product4;}
+
+
+
+
+
 .card-demo{
     border-radius: 15px;
     background-color: blanchedalmond;
