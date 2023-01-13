@@ -25,7 +25,7 @@
         "product3 product4 sale4 sale4";
 }
 
-@media (max-width: 1129px) {
+@media (max-width: 1177px) {
     .cards-grid{
         grid-template-columns: repeat(2, 260px);
         grid-template-rows: repeat(8, 180px);
@@ -38,6 +38,27 @@
             "sale4 sale4"
             "product3 product4"
             "product3 product4";            
+    }
+}
+
+@media (max-width: 577px) {
+    .cards-grid{
+        width: 100%;
+        grid-template-columns: 1fr; /* Почему 1 фр */
+        grid-template-rows: repeat(12, 140px);  /* Почему по 140 */
+        grid-template-areas: 
+            "sale1" 
+            "sale2"
+            "product1"
+            "product1"
+            "product2" 
+            "product2"
+            "sale3" 
+            "sale4"
+            "product3"
+            "product3"
+            "product4"
+            "product4";            
     }
 }
 
