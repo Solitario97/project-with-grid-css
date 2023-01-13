@@ -16,7 +16,7 @@
 .cards-grid{
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(4, 260px);
+    grid-template-columns: repeat(4, minmax(200px, 260px));
     grid-template-rows: repeat(4, 180px);
     grid-template-areas: 
         "sale1 sale1 product1 product2"
@@ -25,9 +25,9 @@
         "product3 product4 sale4 sale4";
 }
 
-@media (max-width: 1177px) {
+@media (max-width: 889px) {
     .cards-grid{
-        grid-template-columns: repeat(2, 260px);
+        grid-template-columns: repeat(2, minmax(180px, 260px));
         grid-template-rows: repeat(8, 180px);
         grid-template-areas: 
             "sale1 sale1"
@@ -41,7 +41,7 @@
     }
 }
 
-@media (max-width: 577px) {
+@media (max-width: 409px) {
     .cards-grid{
         width: 100%;
         grid-template-columns: 1fr; /* Почему 1 фр */
