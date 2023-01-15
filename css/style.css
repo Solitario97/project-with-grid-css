@@ -23,19 +23,19 @@
     background: url("/./img/cars3.jpg") center center / cover no-repeat;
 }
 .product-2{
-    background: url("/img/cars5.jpg") center center / cover no-repeat;
+    background: url("img/cars5.jpg") center center / cover no-repeat;
 }.product-3{
-    background: url("/img/cars6.jpg") center center / cover no-repeat;
+    background: url("./img/cars6.jpg") center center / cover no-repeat;
 }.product-4{
-    background: url("/img/cars2.jpg") center center / cover no-repeat;
+    background: url(".//img/cars2.jpg") center center / cover no-repeat;
 }
 .sale-1{
     background: url("/img/cars4.jpg") center center / cover no-repeat;
 }
 .sale-2{
-    background: url("/img/cars7.jpg") center center / cover no-repeat;
+    background: url(".//./img/cars7.jpg") center center / cover no-repeat;
 }.sale-3{
-    background: url("/img/cars8.jpg") center center / cover no-repeat;
+    background: url("./../img/cars8.jpg") center center / cover no-repeat;
 }.sale-4{
     background: url("/img/cars9.jpg") center center / cover no-repeat;
 }
