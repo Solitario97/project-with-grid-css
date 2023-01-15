@@ -12,6 +12,13 @@
     justify-content: center;
     align-items: center;
 }
+.card-demo:hover{
+    width: 110%;
+    height: 110%;
+    z-index: 1;
+    transition: 0.2s;
+}
+
 .product-1{
     background: url("/img/cars3.jpg") center center / cover no-repeat;
 }
@@ -33,14 +40,6 @@
     background: url("/img/cars9.jpg") center center / cover no-repeat;
 }
 
-
-
-
-
-
-
-
-
 .cards-grid{
     display: grid;
     gap: 20px;
@@ -51,7 +50,6 @@
         "sale2 sale2 product1 product2"
         "product3 product4 sale3 sale3"
         "product3 product4 sale4 sale4";
-
 }
 
 @media (max-width: 889px) {
